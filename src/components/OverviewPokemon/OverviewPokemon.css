@@ -1,0 +1,27 @@
+.ov-pokemon {
+  justify-self: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+  backdrop-filter: blur(30px);
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+}
+
+.ov-pokemon__sprite {
+  width: 100%;
+  max-width: 300px;
+  object-fit: contain;
+}
+
+.ov-pokemon__id {
+  color: #113592;
+  font-size: 1.3rem;
+}
+
+.ov-pokemon__name {
+  color: #fff;
+  margin-bottom: 38px;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 600;
+}

@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: darkslategrey;
+}
+
+.pokedex {
+  display: grid;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 1rem;
+  grid-auto-rows: 22rem;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}

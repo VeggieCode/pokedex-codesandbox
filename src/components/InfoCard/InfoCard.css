@@ -1,0 +1,83 @@
+.info-card {
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(30px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin: 10px;
+  padding: 18px;
+}
+
+.info-card__head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-card__name {
+  font-size: 64px;
+}
+
+.info-card__id {
+  margin-left: 12px;
+  font-size: 60px;
+}
+
+.info-card__type-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+.info-card__info {
+  margin: 40px auto;
+  font-size: 22px;
+}
+
+.info-card__general-info {
+  border-radius: 25px;
+  margin: 20px;
+  padding: 12px;
+  background: linear-gradient(
+    60deg,
+    rgba(255, 218, 0, 0.5) 0%,
+    rgba(255, 115, 0, 0.5) 50%,
+    rgba(255, 252, 129, 0.5) 100%
+  );
+  backdrop-filter: blur(30px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.info-card__data-sign {
+  text-align: start;
+  margin-top: 8px;
+  font-size: 24px;
+}
+
+.info-card__data {
+  text-align: start;
+  font-size: 36px;
+}
+
+.info-card__stats-container {
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 20px;
+  backdrop-filter: blur(30px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+  padding: 12px;
+}
+
+.info-card__stat-sign {
+  margin-top: 8px;
+  font-size: 24px;
+}
+
+.info-card__stat {
+  text-align: start;
+  font-size: 32px;
+}

@@ -1,0 +1,14 @@
+.elemental-type-container {
+  margin: 8px;
+  border-radius: 50px;
+  outline: 1px solid #fff;
+  padding: 5px 20px;
+  background-color: dimgray;
+}
+
+.elemental-type-container__elemental-type {
+  color: #fff;
+  font-size: 36px;
+  font-weight: bolder;
+  letter-spacing: 3px;
+}

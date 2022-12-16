@@ -1,0 +1,29 @@
+.sprite-card {
+  border-radius: 30px;
+  background-color: #fff;
+  display: block;
+  margin: 10px;
+}
+
+.pokemon-sprite-container {
+  display: flex;
+  justify-content: center;
+}
+
+.preevolution-sprite-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.preevolution-sprite-container__preevolution-sprite {
+  height: 150px;
+  display: block;
+}
+
+.preevolution-sprite-container__preevolution-name {
+  text-align: center;
+  flex-basis: 100%;
+  font-size: 36px;
+}
